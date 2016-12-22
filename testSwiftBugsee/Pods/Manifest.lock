@@ -1,0 +1,29 @@
+PODS:
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (3.0.0):
+    - CocoaLumberjack/Extensions
+  - SwiftyBeaver (1.0.3)
+  - UALogger (0.3)
+  - XCGLogger (4.0.0):
+    - XCGLogger/Core (= 4.0.0)
+  - XCGLogger/Core (4.0.0)
+
+DEPENDENCIES:
+  - CocoaLumberjack/Swift
+  - SwiftyBeaver
+  - UALogger
+  - XCGLogger
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  SwiftyBeaver: e42a664ffbdb5ec68ce968ffd3c54f619c92e0d7
+  UALogger: ccc041e5982dbd274ab5805f914076fef9bf29cf
+  XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
+
+PODFILE CHECKSUM: b113802e19ed034bc06688025a9fda85d93d727e
+
+COCOAPODS: 1.0.1
